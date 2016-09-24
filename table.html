@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<style>
+	table{
+		mardin:30px;
+		border-collapse: collapse;
+		float:left;
+		border:10px solid white;
+	}
+	tr{
+	}
+	td{
+		height:5px;
+		width:80px;
+		border:9px solid black;
+	}
+	img{
+		margin-left: 40px;
+	}
+	.yellow{
+		background-color: yellow;
+	}
+	.red{
+		background-color: red;
+	}
+	.black{
+		background-color: black;
+	}
+	.blue{
+		background-color: blue;
+	}
+	#row1{
+		height:50px;
+	}
+	#row2{
+		height:137px;
+	}
+	#row3{
+		height:137px;
+	}
+	#row4{
+		height:75px;
+	}
+	#row5{
+		height:60px;
+	}
+	#row6{
+		height:36px;
+	}
+	#row7{
+		height:45px;
+	}
+</style>
+<body>
+<table cellspacing=0>
+	<tr id="row1">
+		<td colspan=2></td>
+		<td colspan=2></td>
+		<td colspan=2 class=yellow></td>
+	</tr>
+	<tr id="row2">
+		<td></td>
+		<td colspan=3 rowspan=2 class=red></td>
+		<td colspan=2 class=yellow></td>
+	</tr>
+	<tr id="row3">
+		<td rowspan=2></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr id="row4">
+		<td colspan=2 rowspan=2 class=black></td>
+		<td></td>
+		<td colspan=2></td>
+	</tr>
+	<tr id="row5">
+		<td rowspan=3 class=yellow></td>
+		<td></td>
+		<td colspan=2 rowspan=2 class=blue></td>
+	</tr>
+	<tr id="row6">
+		<td colspan=2 rowspan=2></td>
+		<td class=black></td>
+	</tr>
+	<tr id="row7">
+		<td colspan=3></td>
+	</tr>
+</table>
+<img src="img/homework5_table.png">
+</body>
+</html>
